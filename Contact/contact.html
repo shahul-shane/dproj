@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Yeon+Sung&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="slidemenu">
+      <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle" onclick="window.location.href = '../Contact/contact.html'" checked>
+      <label for="slide-item-4"><p class="icon"><img src="../Assets/send.png" alt="" width="31px" height="31px"></p><span>Contact Us</span></label>
+      <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"  onclick="window.location.href = '../Projects/projects.html'">
+      <label for="slide-item-3"><p class="icon"><img src="../Assets/conversation.png" alt="" width="27px" height="27px"></p><span>Projects</span></label>
+      <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"  onclick="window.location.href = '../index.html'">
+      <label for="slide-item-2"><p class="icon"><img src="../Assets/home (1).png" alt="" width="27px" height="27px"></p><span>Home</span></label>
+      
+      <div class="clear"></div>
+       
+        <div class="slider">
+          <div class="bar"></div>
+         </div>
+    </nav>
+    <div class="logo">
+      <a href="../index.html" id="underline"><img src="../Assets/united.png" alt="" width="40px" height="40px">DB Proj's</a>
+      <div class="slider1"></div>
+    </div> 
+    <div class="c-us">
+      <p>Contact Us to get the project you want</p>
+    <div class="contact">
+      <a href="tel:9740080672" id="underline"><img src="../Assets/phone-call.png" alt="" width="40px" height="40px">97400 80670</a><br>
+      <a href="mailto:shahulain786@gmail.com" id="underline"><img src="../Assets/email.png" alt="" width="40px" height="40px">shahulain786@gmail.com</a>
+      
+    </div>
+  </div>
+  <div class="dot"></div>
+  <div class="or">
+    <p>OR</p>
+  </div>
+    <form action="#" method="post">
+      <div class="form">
+
+          <div class="line"><p>Just Fill This Form</p></div>
+          
+        
+        <div class="form-box">
+          <input type="text" name="name" id="name" placeholder="Your Name" required><br>
+          <input type="email" name="email" id="email" placeholder="Email" required><br>
+          <input type="number" name="phone" id="phone" placeholder="Phone" required><br>
+          <input type="number" name="pnum" id="pnum" placeholder="Project Number" required><br>
+          <input type="text" name="pname" id="pname" placeholder="Project Name" required><br>
+        </div>
+        <input type="submit" value="submit" class="submit">
+      </div>
+    </form>
+           
+</body>
+</html>

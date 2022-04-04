@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    font-family: 'Caveat', cursive;
+font-family: 'Yeon Sung', cursive;
+}
+
+.logo{
+    margin: -4% 0 0 2%;
+    font-size: 25px;
+  }
+  #underline{
+    text-decoration: none;
+  }
+  .clear{
+    clear: both;
+  }
+  
+  .slide-toggle{
+    display: none;
+  }
+  
+  .slidemenu{
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .slidemenu label{
+    width: 17%;
+    text-align: center;
+    display: block;
+    float: right;
+    color: rgb(38, 3, 65);
+    font-weight: bold;
+  }
+  
+  .slidemenu label:hover{
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .slidemenu label span{
+    display: block;
+  }
+  
+  .slidemenu label .icon{
+    padding: auto;
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    display: block;
+    margin: 0 auto;
+    line-height: 0px;
+  }
+  
+  .slider{
+    width: 50%;
+    height: 2px;
+    display: block;
+    background: #ccc;
+    margin: 0px 0 0 48%;
+    border-radius: 5px;
+  }
+  
+  .slider1{
+    width: 49%;
+    height: 2px;
+    display: block;
+    background: #ccc;
+    margin: 5px 0 0 -2%;
+    border-radius: 5px;
+  }
+  
+  .slider .bar{
+    width: 33%;
+    height: 5px;
+    background: #333;
+    border-radius: 5px;
+  }
+  
+  .slidemenu label, .slider .bar{
+    transition: all 1000ms ease-in-out;
+    -webkit-transition: all 1000ms ease-in-out;
+    -moz-transition: all 1000ms ease-in-out;
+  }
+  
+  .slidemenu #slide-item-2:checked ~ .slider .bar{margin-left: 0%;}
+  .slidemenu #slide-item-3:checked ~ .slider .bar{margin-left: 33.33%;}
+  .slidemenu #slide-item-4:checked ~ .slider .bar{margin-left: 67.66%;}
+  
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 1%;
+}
+h2{
+    text-transform: capitalize;
+    text-align: center;
+}
